@@ -1,0 +1,1 @@
+Gemini_Api_Key = AIzaSyC0KTf7YP1u1ScHLIP3pz3TM0Xt9N1GV-g
