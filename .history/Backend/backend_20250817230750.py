@@ -5,13 +5,11 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 import json
 import redis
-from flask_cors import CORS
 
 load_dotenv()  # .env dosyasını yükler
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 app = Flask(__name__)
-CORS(app)
 
 # Model seç
 model = genai.GenerativeModel("gemini-1.5-flash")
